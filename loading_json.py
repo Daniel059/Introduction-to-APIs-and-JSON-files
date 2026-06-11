@@ -9,3 +9,9 @@ print(type(json_data))
 # Exploring the data
 for key,value in json_data.items():
     print(f'{key} : {value}')
+
+
+# Alternatively
+print("*********Using keys() method***********\n")
+for key in json_data.keys():
+    print(f'{key} : {json_data[key]}')
